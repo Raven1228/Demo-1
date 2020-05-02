@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.box {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://i.imgur.com/CfADHaS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 200px;
+}
+.box .btn {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#first-question, #second-question, #third-question, #fourth-question, #fifth-question, #sixth-question, #seventh-question, #eighth-question, #ninth-question, #tenth-question {
+  opacity: 0;
+  display: none;
+}
+
+.text {
+  color: #000;
+  text-decoration: none;
+  font-family: 微軟正黑體;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.question {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-container .option-container {
+  display: block;
+  margin: 0 auto;
+}
+
+.closedoor-house {
+  height: 300px;
+  width: 420px;
+  display: block;
+  margin-top: 60px;
+}
+
+.circle-table {
+  height: 270px;
+  width: 400px;
+  display: block;
+  margin-top: 60px;
+}
+
+.metal-vase {
+  height: 270px;
+  width: 150px;
+  display: block;
+  margin-top: 60px;
+}
+
+.three-key {
+  height: 270px;
+  width: 150px;
+  display: block;
+  margin-top: 60px;
+}
+
+.metal-box {
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin-top: 0px;
+}
+
+.wooden-bridge {
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-top: 60px;
+}
+
+.brown-horse {
+  height: 300px;
+  width: 380px;
+  display: block;
+  margin-top: 60px;
+}
